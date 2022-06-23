@@ -1,0 +1,1 @@
+web: gunicord -w 4 -k uvicorn.Workers.UvicornWorker main.py:app
