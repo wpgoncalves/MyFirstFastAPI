@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.Workers.UvicornWorker main.py:app
+web: gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker -b myfirstfastapi-wpg.herokuapp.com
