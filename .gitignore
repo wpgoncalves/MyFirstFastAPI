@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# rejected files
+requirements-extends.txt
+
 # Distribution / packaging
 .Python
 build/
